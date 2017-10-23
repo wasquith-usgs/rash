@@ -1,0 +1,10 @@
+Package: rash
+Title: Short Syntax Hashing Utilities on R Environments
+Version: 1.0
+Depends: R (>= 2.7.0), utils
+Date: 2017-10-23
+Author: William H. Asquith
+Description: A series of short-named utility functions for operation on R environments in the spirit of the hash operations of the Perl programming language or dictionary operations of the Python programming language. Many of the function names mimic the nomenclature of Perl and are focused on providing short-named utilities for enhancing the hashing experience in R. Each function is written in more or less succinct code and has a trailing ".h" to signify the special heredity of these functions to this package. The ".h" notation abstracts and formally isolates this independently developed package from the "hash" package in R that also implements Perl hash-like and Python dictionary-like operators in R.
+Maintainer: William H. Asquith <wasquith@usgs.gov>
+License: file LICENSE
+NeedsCompilation: no
